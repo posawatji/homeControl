@@ -1,8 +1,7 @@
 # homeControlProject
 
+thesis project in Computer Engineering from Srinakharinwirot University.
 this's repositories will show react(Front-End) folder only.
-
-Front-end web development ()
 
 Detailed backend by overview
   - Raspberry pi 
@@ -14,9 +13,7 @@ Detailed backend by overview
   - PM2
   - Ngrok
 
-thesis project in Computer Engineering from Srinakharinwirot University.
-
-this project using 
+### Front-end web development this project using 
 ### React 
   -> React Hook, useState, useEffect, createContext, useContext, axios
 ### socket.io
