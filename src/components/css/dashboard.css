@@ -1,0 +1,633 @@
+/* .dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0%;
+  width: 100%;
+} */
+
+/* navbox in dashboard */
+/* .navDash {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  width: 100%;
+  border-radius: 20px;
+} */
+
+/* box in dashboard */
+.dash {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2%;
+  background-color: #222222;
+  border-radius: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  /* padding: 0; */
+}
+
+/* box in dash */
+/* boxChart Day */
+/* .dayHis {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  border-radius: 20px;
+  padding: 0;
+  margin-top:2%;
+} */
+
+.titleDayOverview {
+  background-color: #ffffff;
+  width: 100%;
+  height: 15%;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.lineDayHis {
+  background-color: #ffffff;
+  width: 100%;
+  height: fit-content;
+  border-radius: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.powerUsage2F {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border-radius: 20px;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.box-apiDataPU {
+  display: flex;
+  flex-direction: row;
+}
+
+.lastHourandMonth {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.apiDataPU {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: end;
+  width: 100%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.DataPU {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.unit {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+/* box in dash */
+.MHD {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  border-color: #ffffff;
+  margin: 10px;
+}
+
+.statTittle {
+  display: flex;
+  background-color: #ffffff;
+  width: 100%;
+  height: 15%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 25px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #ffffff;
+  width: 100%;
+  height: 80%;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cardPowerUsageData {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  width: 100%;
+  height: 25%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.iconUse {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dataUse {
+  width: 70%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* .dayDash {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+} */
+
+.monthDash {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+
+.boxChart {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+
+  /* padding: 20px; */
+}
+
+.statAllKw {
+  display: flex;
+  width: 100%;
+  /* height: 2%; */
+  flex-direction: row;
+}
+
+@media screen and (min-width: 200px) {
+  .dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0%;
+    width: 100%;
+  }
+
+  .navDash {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .titleDayOverview {
+    background-color: #ffffff;
+    width: 100%;
+    height: 15%;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  .dayDash {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .monthDash {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 2%;
+  }
+
+  .dayHis {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+    padding: 0;
+    margin-top: 2%;
+  }
+
+  .titleDayOverview {
+    font-size: 15px;
+  }
+
+  .DataPU {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .unit {
+    font-size: 10px;
+    font-weight: lighter;
+  }
+
+  .MHD {
+    padding: 0px;
+    padding-top: 10px;
+  }
+
+  .statTittle {
+    font-size: 15px;
+  }
+
+  .boxChart {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    /* padding: 20px; */
+  }
+
+  .statAllKw {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0%;
+    width: 100%;
+  
+  }
+  .navDash {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .dayDash {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .monthDash {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 2%;
+  }
+  .dayHis {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+    padding: 0;
+    margin-top: 2%;
+  }
+
+  .titleDayOverview {
+    font-size: 20px;
+  }
+
+  .DataPU {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .unit {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .MHD {
+    padding: 0px;
+    padding-top: 10px;
+    margin: 0;
+  }
+
+  .statTittle {
+    font-size: 20px;
+  }
+
+  .statAllKw {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0%;
+    width: 100%;
+  }
+
+  .navDash {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .dayDash {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .monthDash {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 2%;
+  }
+  .dayHis {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+    padding: 0;
+    margin-top: 2%;
+  }
+
+  .titleDayOverview {
+    font-size: 30px;
+  }
+
+  .DataPU {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .unit {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .MHD {
+    padding: 0px;
+    padding-top: 10px;
+    margin: 0;
+  }
+
+  .statTittle {
+    font-size: 30px;
+  }
+
+  .boxChart {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    /* padding: 20px; */
+  }
+  .statAllKw {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0%;
+    width: 100%;
+  }
+
+  .navDash {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .dayDash {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .monthDash {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 2%;
+  }
+  .dayHis {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+    padding: 0;
+    margin-top: 2%;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    border-radius: 20px; */
+    /* padding: 10px; */
+  }
+
+  .titleDayOverview {
+    font-size: 35px;
+  }
+
+  .DataPU {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .unit {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .MHD {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    border-radius: 20px;
+    /* padding: 10px; */
+    border-color: #ffffff;
+    margin: 0;
+  }
+
+  .statTittle {
+    font-size: 35px;
+  }
+
+  .statAllKw {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .boxChart {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    /* padding: 20px; */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0%;
+    width: 100%;
+  }
+
+  .navDash {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .dayDash {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .monthDash {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 2%;
+  }
+
+  .dayHis {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+    padding: 0;
+    margin: 10px;
+  }
+
+  .titleDayOverview {
+    font-size: 40px;
+  }
+
+  .DataPU {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .unit {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .MHD {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    border-radius: 20px;
+    border-color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .statTittle {
+    font-size: 40px;
+  }
+
+  .statAllKw {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .boxChart {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    /* margin: 0; */
+    /* padding: 20px; */
+  }
+}

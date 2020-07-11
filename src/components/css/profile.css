@@ -1,0 +1,156 @@
+.Profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  width: 100%;
+  background-color: #ffffff;
+  /* height: 100vh; */
+  border-radius: 20px;
+}
+
+.profileBoard {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgProfile {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profileDetail {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  text-align: center;
+  color: #000000;
+  font-size: 50px;
+  /* font-weight: bold; */
+}
+
+.signOut {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.signOutButton {
+  align-items: center;
+  padding: 0.3em 1.2em;
+  width: 200px;
+  height: 100%;
+  border-radius: 60px;
+  background-color: #8a56ac;
+  color: #ffffff;
+  font-weight: bold;
+  border-style: none;
+  font-size: 30px;
+}
+
+.signOutButton:hover {
+  background-color: #6e4489;
+}
+
+@media screen and (min-width: 200px) {
+  .profileDetail {
+    font-size: 10px;
+  }
+  .signOutButton {
+    align-items: center;
+    padding: 0.3em 1.2em;
+    width: 80px;
+    height: 100%;
+    border-radius: 60px;
+    background-color: #8a56ac;
+    color: #ffffff;
+    font-weight: bold;
+    border-style: none;
+    font-size: 12px;
+}
+}
+
+@media screen and (min-width: 320px) {
+  .profileDetail {
+    font-size: 20px;
+  }
+
+  .signOutButton {
+    align-items: center;
+    padding: 0.3em 1.2em;
+    width: 100px;
+    height: 100%;
+    border-radius: 60px;
+    background-color: #8a56ac;
+    color: #ffffff;
+    font-weight: bold;
+    border-style: none;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .profileDetail {
+    font-size: 30px;
+  }
+
+  .signOutButton {
+    align-items: center;
+    padding: 0.3em 1.2em;
+    width: 150px;
+    height: 100%;
+    border-radius: 60px;
+    background-color: #8a56ac;
+    color: #ffffff;
+    font-weight: bold;
+    border-style: none;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .profileDetail {
+    font-size: 40px;
+  }
+  .signOutButton {
+    align-items: center;
+    padding: 0.3em 1.2em;
+    width: 150px;
+    height: 100%;
+    border-radius: 60px;
+    background-color: #8a56ac;
+    color: #ffffff;
+    font-weight: bold;
+    border-style: none;
+    font-size: 20px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+  .profileDetail {
+    font-size: 50px;
+  }
+  .signOutButton {
+    align-items: center;
+    padding: 0.3em 1.2em;
+    width: 170px;
+    height: 100%;
+    border-radius: 60px;
+    background-color: #8a56ac;
+    color: #ffffff;
+    font-weight: bold;
+    border-style: none;
+    font-size: 25px;
+}
+}

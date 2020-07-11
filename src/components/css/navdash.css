@@ -1,0 +1,113 @@
+.dash-nav {
+  display: flex;
+  width: 30%;
+  border-radius: 20px;
+}
+
+.bgDashNav {
+  display: flex;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+.navhisMonth {
+  color: #000000;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 20px;
+  /* padding-inline-end: 5%; */
+}
+
+.navhisDay{
+  color: #000000;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding-inline-start: 0%;
+}
+
+a.navhisDay.navHisClickDay:hover  {
+  color: #ffffff ;
+}
+
+a.navhisMonth.navHisClickMonth:hover  {
+  color: #ffffff ;
+}
+
+ul.nav-links-dash {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  border-radius: 20px;
+  justify-content: space-around;
+  padding-inline-start: 0%;
+  padding-inline-end: 0%;
+}
+
+.navHisClickDay {
+  color: #ffffff;
+  background-color: #8a56ac;
+}
+
+.navHisClickMonth {
+  color: #ffffff;
+  background-color: #8a56ac;
+}
+
+.textDay{
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.textMonth{
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  color: none;
+}
+
+
+@media screen and (min-width: 200px) {
+  .dash-nav {
+    display: flex;
+    width: 80%;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .dash-nav {
+    display: flex;
+    width: 80%;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .dash-nav {
+    display: flex;
+    width: 80%;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .dash-nav {
+    display: flex;
+    width: 40%;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .dash-nav {
+    display: flex;
+    width: 30%;
+    border-radius: 20px;
+  }
+}
+
