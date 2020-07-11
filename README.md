@@ -1,29 +1,29 @@
 # homeControlProject
-# homeControlProject
+
 this's repositories will show react(Front-End) folder only.
 
 Front-end web development ()
 
 Detailed backend by overview
-  Raspberry pi 
-  Arduino
-  mySQL
-  NodeJS -> using MVC Design Pattern 
-  C for Arduino
-  NGINX
-  PM2
-  Ngrok
+  - Raspberry pi 
+  - Arduino
+  - mySQL
+  - NodeJS -> using MVC Design Pattern 
+  - C for Arduino
+  - NGINX
+  - PM2
+  - Ngrok
 
 thesis project in Computer Engineering from Srinakharinwirot University.
 
 this project using 
-React 
+### React 
   -> React Hook, useState, useEffect, createContext, useContext, axios
-socket.io
+### socket.io
   -> using socket.io with nodejs and raspberry pi to send command to control light bulb status(on/off). 
-chartJS
+### chartJS
   -> using chartJS to create a graph of energy usage today and every month.
-css
+### css
   -> using flexbox for layout management.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
