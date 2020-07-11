@@ -23,12 +23,18 @@ Detailed backend by overview
 ### css
   -> using flexbox for layout management.
 
+# preview web
 ![signup](https://user-images.githubusercontent.com/39872173/87227047-38aaa280-c3c2-11ea-84a9-d3c8bd0958ee.png)
 ![login](https://user-images.githubusercontent.com/39872173/87227048-39dbcf80-c3c2-11ea-8250-09fe29616a48.png)
 ![dashboard pc change](https://user-images.githubusercontent.com/39872173/87227050-3ba59300-c3c2-11ea-977d-011387bd5858.png)
 ![pro1](https://user-images.githubusercontent.com/39872173/87227051-3e07ed00-c3c2-11ea-80dd-7e65be9ab907.png)
 ![pro2](https://user-images.githubusercontent.com/39872173/87227053-406a4700-c3c2-11ea-9f2a-64512c6160bd.png)
 ![profile](https://user-images.githubusercontent.com/39872173/87227056-42cca100-c3c2-11ea-8b23-8fc8d99960e6.png)
+
+# Result
+![S__7725080](https://user-images.githubusercontent.com/39872173/87227171-49a7e380-c3c3-11ea-93ec-d2ba89e730db.jpg)
+![S__7725066](https://user-images.githubusercontent.com/39872173/87227172-4a407a00-c3c3-11ea-9248-d642d190b260.jpg)
+![S__7725072](https://user-images.githubusercontent.com/39872173/87227173-4b71a700-c3c3-11ea-88d3-5a494b1f38b5.jpg)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
