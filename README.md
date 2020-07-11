@@ -23,6 +23,7 @@ Detailed backend by overview
 ### css
   -> using flexbox for layout management.
 
+![alt text](https://drive.google.com/file/d/12M1hRkYi_mUiYpwzLGGU4PRHsbhRD77k/view?usp=sharing)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
