@@ -6,7 +6,7 @@ this's repositories will show react(Front-End) folder only.
 Detailed backend by overview
   - Raspberry pi 
   - Arduino
-  - mySQL
+  - MariaDB
   - NodeJS -> using MVC Design Pattern 
   - C for Arduino
   - Apache Web Server
