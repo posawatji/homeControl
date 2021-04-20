@@ -9,7 +9,7 @@ Detailed backend by overview
   - mySQL
   - NodeJS -> using MVC Design Pattern 
   - C for Arduino
-  - NGINX
+  - Apache Web Server
   - PM2
   - Ngrok
 
